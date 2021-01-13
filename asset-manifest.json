@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/router-anime/static/css/main.6ce83d3b.chunk.css",
+    "main.js": "/router-anime/static/js/main.af219c33.chunk.js",
+    "main.js.map": "/router-anime/static/js/main.af219c33.chunk.js.map",
+    "runtime-main.js": "/router-anime/static/js/runtime-main.0e22d508.js",
+    "runtime-main.js.map": "/router-anime/static/js/runtime-main.0e22d508.js.map",
+    "static/js/2.2df7c66c.chunk.js": "/router-anime/static/js/2.2df7c66c.chunk.js",
+    "static/js/2.2df7c66c.chunk.js.map": "/router-anime/static/js/2.2df7c66c.chunk.js.map",
+    "index.html": "/router-anime/index.html",
+    "static/css/main.6ce83d3b.chunk.css.map": "/router-anime/static/css/main.6ce83d3b.chunk.css.map",
+    "static/js/2.2df7c66c.chunk.js.LICENSE.txt": "/router-anime/static/js/2.2df7c66c.chunk.js.LICENSE.txt",
+    "static/media/1.2c205e09.jpeg": "/router-anime/static/media/1.2c205e09.jpeg",
+    "static/media/2.6b77dbce.svg": "/router-anime/static/media/2.6b77dbce.svg",
+    "static/media/3.feb754da.jpeg": "/router-anime/static/media/3.feb754da.jpeg",
+    "static/media/4.075f91c9.webp": "/router-anime/static/media/4.075f91c9.webp",
+    "static/media/5.d7317c20.jpg": "/router-anime/static/media/5.d7317c20.jpg",
+    "static/media/SignUp.scss": "/router-anime/static/media/backgroundSignUp.66bd1b52.jpg",
+    "static/media/Home.scss": "/router-anime/static/media/homeBg.058dde06.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e22d508.js",
+    "static/js/2.2df7c66c.chunk.js",
+    "static/css/main.6ce83d3b.chunk.css",
+    "static/js/main.af219c33.chunk.js"
+  ]
+}
