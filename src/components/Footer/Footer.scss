@@ -1,0 +1,16 @@
+.Footer {
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  &__logo {
+    color: #ffffff;
+    position: relative;
+    &::after {
+      position: absolute;
+      bottom: 6px;
+      right: -9px;
+    }
+  }
+}
