@@ -1,4 +1,3 @@
-  
 import React, { useEffect } from "react";
 import { onReadyNewRoute } from "./animation";
 
@@ -7,7 +6,7 @@ const withRouteReady = (Component, hasData = false) => () => {
     if (!hasData) {
       onReadyNewRoute();
     }
-  },[]);
+  }, []);
 
   return <Component onReadyNewRoute={onReadyNewRoute} />;
 };

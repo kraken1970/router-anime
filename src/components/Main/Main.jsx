@@ -7,24 +7,28 @@ import SignUp from "../SignUp/SignUp";
 import NotFound from "../NotFound/NotFound";
 import "./Main.scss";
 
-const isAuth = true
+const isAuth = true;
 
-const Main = ({location}) => {
+const Main = ({ location }) => {
   return (
     <main className="Main">
-      <Switch location={location} >
+      <Switch location={location}>
         <Route path={page.home} exact>
           <Home />
         </Route>
 
-        <Route path={page.features} exact render={()=>{
-          if (isAuth) {
-            return <Features/>
-          } else {
-            return <Redirect to={page.signUp} />
-          }
-        }} />
-          
+        <Route
+          path={page.features}
+          exact
+          render={() => {
+            if (isAuth) {
+              return <Features />;
+            } else {
+              return <Redirect to={page.signUp} />;
+            }
+          }}
+        />
+
         <Route path={page.signUp} exact>
           <SignUp />
         </Route>
